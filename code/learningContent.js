@@ -22,7 +22,7 @@ const TIME_FOR_EXAM = "11:00";
     /* amountOfQuestions - max number of questions from the subject that will appear in the test*/
 const DATA = { 
     "רקע על הבה\"ד": {
-        "icon":  "../assets/images/icon.png",
+        "icon":  "../assets/images/bahad11-ver2.png",
         "learningContent": {
         'קצת על הבה"ד...': {
                 "רקע": [ 
@@ -55,7 +55,7 @@ const DATA = {
         },
     },
     "סקירת ההכשרות השונות": {
-        "icon":  "../assets/images/icon.png",
+        "icon":  "../assets/images/bahad11-ver2.png",
         "learningContent": {
             'מגמות הבה"ד': {
                 "מגמת השלמת קצונה": [
@@ -218,9 +218,12 @@ const DATA = {
                                 <br>סיורים מקצועיים, סיפוחים ביחידות השונות, פאנל מש״קים מיחידות שונות בצה״ל, \
                                 תכנים ושיעורים עיוניים שיכשירו אתם לתפקידם בשירות הסדיר.'
                     },
- 
+                    {
+                        cardType:"videoAndText",
+                        content: " ",
+                        video: '../assets/images/video-tash.mp4',
+                    }
                 ]
-
             }
         }
     }
